@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-fan {
+  animation: App-logo-spin infinite 4s linear;
+}
+
+.logo{
+  width:60px;
+height:60px;
+padding:5px;
+}
+
+.device-container{
+  margin-bottom: 25px;
+  margin-top: 130px;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-between;
+}
